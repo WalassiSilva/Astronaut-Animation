@@ -7,6 +7,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Jersey 15", sans-serif;
+  overflow: hidden;
 }
 .backg {
   position: relative;
@@ -15,6 +17,24 @@ body {
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.1);
   transform: scale(0.7);
+}
+.blackout {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  background: rgba(0, 0, 0);
+  z-index: 50;
+  text-align: center;
+  overflow: hidden;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.btn{
+  margin: 0 auto;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.5rem;
 }
 
 .message.hidden {
@@ -25,8 +45,10 @@ body {
   position: absolute;
   top: 50px;
   text-align: center;
-  font-family: monospace;
   color: white;
+}
+strong{
+  font-family: monospace,sans-serif;
 }
 .secret {
   font-size: .8rem;
