@@ -427,7 +427,8 @@ body {
 .s3,
 .s4,
 .s5,
-.s6 {
+.s6,
+.s7 {
   background: white;
   width: 8px;
   height: 8px;
@@ -457,5 +458,10 @@ body {
 .s6 {
   top: 60px;
   left: 370px;
+  z-index: 10;
+}
+.s7 {
+  top: -150px;
+  left: 440px;
   z-index: 10;
 }

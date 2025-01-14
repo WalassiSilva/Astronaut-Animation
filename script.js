@@ -9,5 +9,8 @@ helmet.addEventListener('click', () => {
 star.addEventListener('click', () => {
   secret.style.display = 'block';  
   console.log('secret');
+  setTimeout(() => {
+    secret.style.display = 'none';
+  }, 1000);
   
 });
