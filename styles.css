@@ -51,6 +51,7 @@ h1 {
   text-align: center;
   color: white;
 }
+
 strong{
   font-family: monospace,sans-serif;
 }
@@ -58,6 +59,10 @@ strong{
   font-size: .8rem;
   position: absolute;
   top: 110px;
+}
+.mean-it {
+  font-size: 1.5rem;
+  text-transform:capitalize ;
 }
 
 .planet {
